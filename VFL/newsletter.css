@@ -1,0 +1,140 @@
+
+#modal{
+	display:none;
+	color:  #ff4d4d;
+	display:;
+	height: inherit;
+	width: inherit;
+	background-color:red;
+	justify-content: center;
+	align-items: center;
+}
+
+	.closeBtn{
+		background-color: ;
+		display:flex;
+		float: right;
+		margin-right: -1rem;
+		margin-top: -1rem;
+		color: red;
+		font-size: 20px;
+		box-shadow:  0 7px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+}
+
+	.closeBtn:hover{
+        cursor: pointer;
+        /*font-size: 26px;*/
+        box-shadow:none;
+
+	}
+
+
+
+.div-im {
+	 width:250px;border-radius: 130px;background:#ff66ff;
+	 box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.21);
+	 text-align: center;
+	 display: inline-block;justify-content: center;
+	}
+
+
+
+
+
+ .button_sub{
+ 	background-color:#4dff4d;
+ 	padding:1em 2em;
+ 	color:  #ff4d4d;
+ 	font-size: 1.6rem;
+ 	border:none;
+ 	font-weight: bold;
+ 	border-radius: 7px;
+
+ }
+
+ .button_sub:hover{
+ 	/*background-color: #33ff33;*/
+ 	box-shadow: 0 1.4rem 3rem rgba(0,0,0, .2);
+ 	cursor: pointer;
+ 	text-decoration: none;
+ 	outline: none;
+
+ }
+
+ .modal{
+ 	display:none;
+ 	position:fixed;
+ 	z-index: 1;
+ 	top: 0;
+ 	left:0;
+ 	height: 100%;
+ 	width: 100%;
+ 	overflow:auto;
+ 	background-color:rgba(0,0,0,0.8);
+ }
+
+ .modal-content{
+ 	background-color: #fff;
+ 	margin:20% auto;
+ 	padding: 20px;
+ 	width: 70%;
+ 	box-shadow: 0 5px 8px 0 rgba(0,0,0,0,0.2) box-shadow: 0 7px 10px 0 rgba(0,0,0,0,0.5);
+ }
+
+ /*.closeBtn{
+ 	color:red;
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	float:center;
+ 	box-shadow: 
+ 	box-shadow: 0 5px 8px 0 rgba(0,0,0,0,0.2);
+ }
+font-size: 39px;*/
+
+
+.sub {
+	text-align: center;
+	font-weight: bold;
+	color:#99ccff;
+
+}
+#modal_input1{
+	text-align: center;
+	/*width: 80rem;*/
+	padding: .5rem;
+	width: 50%;
+	height: 50% ;
+	display:flex;
+	border-color: white;
+	border:none;
+}
+
+input[type=submit]{
+	 background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	border :none;
+	outline: none;
+	color: #fff;
+
+}
+
+input:hover[type=submit]{
+	text-decoration: none;
+	outline: none
+}
+
+.form_submit {
+	 background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	width: 30%;
+	padding: .5rem;
+	border-radius:7px;
+}
+
+.form_submit:hover {
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100% );
+	text-decoration: none;
+}
